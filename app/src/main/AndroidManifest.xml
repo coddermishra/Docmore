@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hospitaltest">
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_main"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_main"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Emergency_hospital"></activity>
+        <activity android:name=".Admin_user" />
+        <activity android:name=".admin_hospital" />
+        <activity android:name=".admin_doc" />
+        <activity android:name=".Admin_profile" />
+        <activity
+            android:name=".Admin_main"
+            android:exported="true" />
+        <activity
+            android:name=".Doctor_profile"
+            android:exported="true" />
+        <activity android:name=".Doctor" />
+        <activity android:name=".user_appoint_activity" />
+        <activity android:name=".user_pre_activity" />
+        <activity android:name=".user_hoc_Activity" />
+        <activity android:name=".user_doc_Activity" />
+        <activity
+            android:name=".Profile"
+            android:exported="true" />
+        <activity
+            android:name=".testactivity"
+            android:exported="true"
+            android:label="@string/title_activity_testactivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".user_frag"
+            android:exported="true" />
+        <activity android:name=".verification" />
+        <activity android:name=".user" />
+        <activity
+            android:name=".signup"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Signin" />
+        <activity android:name=".Admin_login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

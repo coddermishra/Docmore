@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#077cff</color>
+    <color name="colorPrimaryDark">#077cff</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#ffffff</color>
+    <color name="Signup_color">#788af0</color>
+
+    <color name="black">#000000</color>
+    <color name="semi_white">#3A4B40</color>
+    <color name="Fluid_main">#CFD8DC</color>
+    <color name="Fluid_text">#9DA6A9</color>
+    <color name="Fluid_topbar">#788B91</color>
+    <color name="fluid_main_alt">#C1FAFF</color>
+    <color name="top_bar">#292B2C</color>
+    <color name="red">#FF3030</color>
+    <color name="green">#30FF30</color>
+
+    <color name="alt_body">#40C4FF</color>
+    <color name="alt_top">#008EC6</color>
+    <color name="alt_light">#CBF7FF</color>
+    <color name="sa">#374955</color>
+    <color name="main_green">#00C853</color>
+    <color name="main_alt">#2F4858</color>
+</resources>
