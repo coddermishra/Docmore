@@ -59,7 +59,7 @@
         android:textAllCaps="true"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/button19"
+        app:layout_constraintBottom_toTopOf="@+id/bloodbank"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline2" />
@@ -96,7 +96,7 @@
         app:layout_constraintStart_toStartOf="@+id/guideline2" />
 
     <Button
-        android:id="@+id/button19"
+        android:id="@+id/bloodbank"
         android:layout_width="357dp"
         android:layout_height="52dp"
         android:background="@drawable/rbredblood"

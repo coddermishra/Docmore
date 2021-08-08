@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.hospitaltest">
+    package="com.example.Docmore">
     <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
@@ -10,41 +10,41 @@
         android:roundIcon="@drawable/docmorelogo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Emergency_hospital"></activity>
-        <activity android:name=".Admin_user" />
-        <activity android:name=".admin_hospital" />
-        <activity android:name=".admin_doc" />
-        <activity android:name=".Admin_profile" />
+        <activity android:name="com.example.Docmore.Emergency_hospital"></activity>
+        <activity android:name="com.example.Docmore.Admin_user" />
+        <activity android:name="com.example.Docmore.admin_hospital" />
+        <activity android:name="com.example.Docmore.admin_doc" />
+        <activity android:name="com.example.Docmore.Admin_profile" />
         <activity
-            android:name=".Admin_main"
+            android:name="com.example.Docmore.Admin_main"
             android:exported="true" />
         <activity
-            android:name=".Doctor_profile"
+            android:name="com.example.Docmore.Doctor_profile"
             android:exported="true" />
-        <activity android:name=".Doctor" />
-        <activity android:name=".user_appoint_activity" />
-        <activity android:name=".user_pre_activity" />
-        <activity android:name=".user_hoc_Activity" />
-        <activity android:name=".user_doc_Activity" />
+        <activity android:name="com.example.Docmore.Doctor" />
+        <activity android:name="com.example.Docmore.user_appoint_activity" />
+        <activity android:name="com.example.Docmore.user_pre_activity" />
+        <activity android:name="com.example.Docmore.user_hoc_Activity" />
+        <activity android:name="com.example.Docmore.user_doc_Activity" />
         <activity
-            android:name=".Profile"
+            android:name="com.example.Docmore.Profile"
             android:exported="true" />
         <activity
-            android:name=".testactivity"
+            android:name="com.example.Docmore.testactivity"
             android:exported="true"
             android:label="@string/title_activity_testactivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".user_frag"
+            android:name="com.example.Docmore.user_frag"
             android:exported="true" />
-        <activity android:name=".verification" />
-        <activity android:name=".user" />
+        <activity android:name="com.example.Docmore.verification" />
+        <activity android:name="com.example.Docmore.user" />
         <activity
-            android:name=".signup"
+            android:name="com.example.Docmore.signup"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Signin" />
-        <activity android:name=".Admin_login" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.Docmore.Signin" />
+        <activity android:name="com.example.Docmore.Admin_login" />
+        <activity android:name="com.example.Docmore.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
