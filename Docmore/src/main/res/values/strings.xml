@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Hospital Management</string>
+    <string name="app_name" translatable="false">Docmore</string>
     <string name="title_activity_admin">admin</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
