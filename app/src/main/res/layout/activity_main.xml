@@ -10,26 +10,27 @@
 
     <Button
         android:id="@+id/Doctor"
-        android:layout_width="0dp"
-        android:layout_height="@dimen/mybuttonheight"
+        android:layout_width="371dp"
+        android:layout_height="46dp"
         android:layout_marginBottom="30dp"
         android:background="@drawable/rbgreen"
         android:drawableStart="@drawable/ic_doctor"
         android:paddingStart="20dp"
-        android:paddingEnd="20dp"
+        android:paddingEnd="10dp"
         android:text="Doctor"
         android:textAllCaps="true"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/Patient"
-        app:layout_constraintEnd_toStartOf="@+id/guideline3"
 
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline2" />
 
     <Button
         android:id="@+id/Patient"
-        android:layout_width="0dp"
-        android:layout_height="@dimen/mybuttonheight"
+        android:layout_width="367dp"
+        android:layout_height="48dp"
         android:layout_marginBottom="30dp"
         android:background="@drawable/rbblue"
         android:drawableStart="@drawable/ic_dropper"
@@ -41,12 +42,14 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/Emergency"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline2" />
 
     <Button
         android:id="@+id/Emergency"
-        android:layout_width="0dp"
-        android:layout_height="@dimen/mybuttonheight"
+        android:layout_width="367dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
         android:background="@drawable/roundbutton"
         android:drawableStart="@drawable/ic_ambulance"
         android:paddingStart="20dp"
@@ -56,9 +59,9 @@
         android:textAllCaps="true"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintBottom_toTopOf="@+id/button19"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline2" />
 
     <androidx.constraintlayout.widget.Guideline
@@ -77,8 +80,8 @@
 
     <Button
         android:id="@+id/Admin"
-        android:layout_width="0dp"
-        android:layout_height="@dimen/mybuttonheight"
+        android:layout_width="376dp"
+        android:layout_height="55dp"
         android:layout_marginBottom="30dp"
         android:background="@drawable/rbyellow"
         android:drawableStart="@drawable/ic_admin"
@@ -89,7 +92,24 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/Doctor"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline2" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="357dp"
+        android:layout_height="52dp"
+        android:background="@drawable/rbredblood"
+        android:drawableStart="@drawable/bloodbanklogo"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="Blood bank"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBottomOf="@id/Emergency"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        tools:layout_editor_absoluteY="613dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -99,9 +119,9 @@
         app:layout_constraintGuide_percent="0.9" />
 
     <androidx.cardview.widget.CardView
-        android:layout_width="0dp"
-        android:layout_height="170dp"
-        android:layout_marginBottom="30dp"
+        android:layout_width="376dp"
+        android:layout_height="174dp"
+        android:layout_marginBottom="20dp"
         app:cardCornerRadius="10dp"
         app:cardElevation="4dp"
         app:cardUseCompatPadding="true"
@@ -110,7 +130,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintVertical_bias="0.19">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -140,7 +160,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/ic_main_app_icon" />
+                app:srcCompat="@drawable/docmorelogo" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>

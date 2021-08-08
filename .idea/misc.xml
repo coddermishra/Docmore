@@ -5,6 +5,21 @@
       <map>
         <entry key="..\:/Users/91931/Desktop/Hospitaltest/app/src/main/res/layout/card_user_appoint.xml" value="0.215625" />
         <entry key="..\:/Users/91931/Desktop/Hospitaltest/app/src/main/res/layout/emergency.xml" value="0.215625" />
+        <entry key="..\:/Users/91931/Desktop/docmore/app/src/main/res/drawable/bw_stathoscope.xml" value="0.4036458333333333" />
+        <entry key="..\:/Users/91931/Desktop/docmore/app/src/main/res/drawable/ic_admin.xml" value="0.4036458333333333" />
+        <entry key="..\:/Users/91931/Desktop/docmore/app/src/main/res/drawable/rbredblood.xml" value="0.4036458333333333" />
+        <entry key="..\:/Users/91931/Desktop/docmore/app/src/main/res/drawable/rbyellow.xml" value="0.4036458333333333" />
+        <entry key="..\:/Users/91931/Desktop/docmore/app/src/main/res/layout/activity_admin.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/91931/Desktop/docmore/app/src/main/res/layout/activity_admin_doc.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/91931/Desktop/docmore/app/src/main/res/layout/activity_admin_hospital.xml" value="0.3875" />
+        <entry key="..\:/Users/91931/Desktop/docmore/app/src/main/res/layout/activity_admin_login.xml" value="0.25" />
+        <entry key="..\:/Users/91931/Desktop/docmore/app/src/main/res/layout/activity_admin_main.xml" value="0.3875" />
+        <entry key="..\:/Users/91931/Desktop/docmore/app/src/main/res/layout/activity_admin_profile.xml" value="0.3875" />
+        <entry key="..\:/Users/91931/Desktop/docmore/app/src/main/res/layout/activity_admin_user.xml" value="0.3875" />
+        <entry key="..\:/Users/91931/Desktop/docmore/app/src/main/res/layout/activity_doctor.xml" value="0.3875" />
+        <entry key="..\:/Users/91931/Desktop/docmore/app/src/main/res/layout/activity_doctor_profile.xml" value="0.3875" />
+        <entry key="..\:/Users/91931/Desktop/docmore/app/src/main/res/layout/activity_emergency_hospital.xml" value="0.3875" />
+        <entry key="..\:/Users/91931/Desktop/docmore/app/src/main/res/layout/activity_main.xml" value="0.3875" />
       </map>
     </option>
   </component>

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/docmorelogo"
     tools:context=".Admin_login">
 
     <com.google.android.material.textfield.TextInputLayout
@@ -11,6 +12,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
+        android:textColorHint="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/textInputLayout"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
         app:layout_constraintHorizontal_bias="0.0"
@@ -27,7 +29,8 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/textInputLayout"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
@@ -53,24 +56,37 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.85" />
+        app:layout_constraintGuide_percent="0.9" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        app:layout_constraintEnd_toStartOf="@+id/guideline5"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="@+id/guideline4"
-        tools:layout_editor_absoluteY="490dp" />
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="235dp"
+        android:layout_height="83dp"
+        android:layout_marginBottom="380dp"
+        app:cardBackgroundColor="#C62398"
+        app:cardCornerRadius="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/v_textView2"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/material_on_background_disabled"
+            android:text="Button"
+            android:textColor="@color/white"
+            android:textSize="26sp" />
+    </androidx.cardview.widget.CardView>
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.9" />
+        app:layout_constraintGuide_percent="1.0" />
 
     <TextView
         android:id="@+id/textView"
@@ -78,7 +94,10 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:text="Forgot Password?"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
         app:layout_constraintEnd_toStartOf="@+id/guideline5" />
 
     <ImageView
@@ -95,15 +114,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Need an Account?"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="552dp" />
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="528dp" />
 
     <TextView
         android:id="@+id/v_textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sign Up"
-        tools:layout_editor_absoluteX="223dp"
-        tools:layout_editor_absoluteY="552dp" />
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="528dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
